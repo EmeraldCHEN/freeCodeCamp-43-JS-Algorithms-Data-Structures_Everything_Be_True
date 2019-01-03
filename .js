@@ -1,11 +1,11 @@
 function truthCheck(collection, pre) {
-  let count = 0;
+  let counter = 0; // Create a counter to count how many are true
   for(let i = 0; i < collection.length; i++){
     if(collection[i][pre]){
-      count++;
+      counter++;
     }
   }
-  if(count === collection.length){
+  if(counter === collection.length){
     return true;
   }else{
     return false;
