@@ -22,9 +22,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 
 function truthCheck2(collection, pre) {
   let counter = 0;
-  for(let obj in collection){ // Loop through indices of the passed array
+  for(let index in collection){ // Loop through indices of the passed array
   // If it is has property and value is truthy
-    if(collection[obj].hasOwnProperty(pre) && Boolean(collection[obj][pre])){
+    if(collection[index].hasOwnProperty(pre) && Boolean(collection[index][pre])){
       counter++;
     }
   }
@@ -34,6 +34,7 @@ function truthCheck2(collection, pre) {
 
 
 
+/**************  Solution #3   ************************************************************************************/
 
 
 
