@@ -1,7 +1,7 @@
 /**************  Solution #1   ************************************************************************************/
 
 function truthCheck(collection, pre) {
-  let counter = 0; // Create a counter to count how many are true
+  let counter = 0; // Create a counter to count how many cases are true
   for(let i = 0; i < collection.length; i++){
     if(collection[i][pre]){ // Access object properties through [] notation
       counter++;
