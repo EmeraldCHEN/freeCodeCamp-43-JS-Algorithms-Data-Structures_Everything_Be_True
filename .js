@@ -36,7 +36,10 @@ function truthCheck2(collection, pre) {
 
 /**************  Solution #3   ************************************************************************************/
 
+function truthCheck3(collection, pre) {
+// For every object in the collection array, check if the value returned from the callback is truthy
+  return collection.every(obj => obj[pre]);
+}
 
 
-
-
+// Retrieved from https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/everything-be-true/
